@@ -22,7 +22,7 @@ public class KeyDownKeyUpSendKeysClickDemo {
 		
 		Actions actions = new Actions(driver);
 		actions.keyDown(Keys.SHIFT).sendKeys(usernameTF,"gfghjhguukjkgj").keyUp(Keys.SHIFT)
-			.sendKeys(Keys.TAB+ "hgvhvhbj").click(loginBTN).build().perform();
+			.sendKeys(Keys.TAB + "hgvhvhbj").click(loginBTN).build().perform();
 		
 		Thread.sleep(3000);
 		driver.quit();
